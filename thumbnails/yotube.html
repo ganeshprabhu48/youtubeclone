@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Clone</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/video.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/sidebar.css">
+</head>
+<body>
+  <header class="header"> 
+  <div class="left-section"><img class="menu"src="icons/hamburger-menu.svg">
+    <img class="logo"src="icons/youtube-logo.svg"></div>
+  <div class="middle-section"><input class="search-bar" type="text" placeholder="Search">
+  
+  
+  
+    <button class="search-button"><img class="search-icon"src="icons/search.svg"><div class="tool-tip">Search</div></button>
+
+
+  <button class="voicesearch-button"><img class="voice-icon"src="icons/voice-search-icon.svg"><div class="tool-tip">Search with your voice</div></button>
+
+
+</div>
+  
+
+
+
+<div class="right-section">
+ <div class="upload-icon-container"><img class="upload-icon"src="icons/upload.svg"><div class="tool-tip">Create</div></div>
+<div  class="upload-icon-container"><img class="youtube-apps"src="icons/youtube-apps.svg"><div class="tool-tip">Youtube apps </div></div>
+ <div class="notification-icon">
+  <div  class="upload-icon-container"><img class="notifi"src="icons/notifications.svg"><div class="tool-tip">Notification</div></div>
+  <div class="notification-count">7</div>
+  </div>
+ <div  class="upload-icon-container"><img class="name-my"src="icons/name.jpg"><div class="tool-tip">My profile</div></div>
+</div>
+</header>
+  <nav class="sidebar">
+    <div class="sidebar-link" ><img src="icons/home.svg"><div>Home</div></div>
+    <div class="sidebar-link"><img src="icons/explore.svg"><div>Explore</div></div>
+    <div class="sidebar-link"><img src="icons/subscriptions.svg"><div>Subscriptions</div></div>
+    <div class="sidebar-link"><img src="icons/originals.svg"><div>Original</div></div>
+    <div class="sidebar-link"><img src="icons/youtube-music.svg"><div>Youtube Music</div></div>
+    <div class="sidebar-link"><img src="icons/library.svg"><div>Library</div></div>
+  </nav>
+ <main> 
+  <section class="video-grid"> <!-- First Video Preview -->
+  <div class="video-preview"> <!-- Vertical Layout: Contains the entire video preview -->
+    <!-- Thumbnail Image -->
+    <a href="https://www.youtube.com/watch?v=HT1afWWYeyY&pp=ygURbWVpeWF6aGFnYW4gc29uZ3M%3D" target="blank" class="thumnail-link">
+    <div class="thumbnail-image"> <!-- Horizontal Layout: Contains the video thumbnail -->
+    <img class="thumbnail" src="thumbnails/thumbnail-25.webp" alt="Video Thumbnail"class="thumbnail-link">
+      <div class="video-time"> 4:13</div>
+    </div></a>
+    <!-- Video Details -->
+    <div class="video-info-grid"> <!-- Horizontal Layout: Displays the channel profile and video info side by side -->
+      <div class="channel-profile"> <!-- Vertical Layout: Contains the channel profile picture -->
+        <img class="profile-picture" src="channelprofile/channels24_profile.jpg" alt="Channel Profile">
+      </div>
+      <div class="video-info"> <!-- Vertical Layout: Contains the video title, author, and states -->
+        <p class="video-title">Yaaro Ivan Yaaro | Meiyazhagan | Kamal Haasan | Karthi, Arvind...</p>
+        <p class="video-author">Think Music India</p>
+        <p class="video-states">3.8M views · 3 months ago</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Video Preview -->
+  <div class="video-preview"> <!-- Vertical Layout: Contains the entire video preview -->
+    <!-- Thumbnail Image -->
+    <a href="https://youtu.be/foF5YGOkUKQ?si=pe8keszQFfjKJhQ4" target="blank" class="thumnail-link">
+    <div class="thumbnail-image"> <!-- Horizontal Layout: Contains the video thumbnail -->
+      <div class="video-time">14:20</div>
+      <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="Video Thumbnail">
+      <div class="video-time">15:24</div>
+    </div></a>
+    <!-- Video Details -->
+    <div class="video-info-grid"> <!-- Horizontal Layout: Displays the channel profile and video info side by side -->
+      <div class="channel-profile"> <!-- Vertical Layout: Contains the channel profile picture -->
+        <img class="profile-picture" src="channelprofile/channel6_profile.jpg" alt="Channel Profile">
+      </div>
+      <div class="video-info"> <!-- Vertical Layout: Contains the video title, author, and states -->
+        <p class="video-title">
+
+          
+          அனைவருக்கும் என் நெஞ்சம் நிறைந்த நன்றி ❤️🙏🏼-...</p>
+        <p class="video-author">Muthukumaran</p>
+        <p class="video-states">1.6M views · 3 days ago</p>
+      </div>
+    </div>
+  </div>
+  <div class="video-preview"> <!-- Vertical Layout: Contains the entire video preview -->
+    <!-- Thumbnail Image -->
+    <a href="https://youtu.be/EvMS73TWIQA" target="blank" class="thumnail-link">
+    <div class="thumbnail-image"> <!-- Horizontal Layout: Contains the video thumbnail -->
+      <img class="thumbnail" src="thumbnails/WhatsApp Image 2025-01-26 at 13.09.58_ee6afa09.jpg" alt="Video Thumbnail">
+      <div class="video-time">4:10</div>
+    </div></a>
+    <!-- Video Details -->
+    <div class="video-info-grid"> <!-- Horizontal Layout: Displays the channel profile and video info side by side -->
+      <div class="channel-profile"> <!-- Vertical Layout: Contains the channel profile picture -->
+        <img class="profile-picture" src="channelprofile/channels24_profile.jpg" alt="Channel Profile">
+      </div>
+      <div class="video-info"> <!-- Vertical Layout: Contains the video title, author, and states -->
+        <p class="video-title">Urugi Urugi - Video Song | Joe | Rio Raj | Hariharan Ram.S | Siddhu...</p>
+        <p class="video-author">Think Music India</p>
+        <p class="video-states">73M views · 1 years ago</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Second Video Preview -->
+  <div class="video-preview"> <!-- Vertical Layout: Contains the entire video preview -->
+    <!-- Thumbnail Image -->
+    <a href="https://youtu.be/Hdbu2fL0guc?si=Ecjo-t66Irk_fhfT" target="blank" class="thumnail-link">
+    <div class="thumbnail-image"> <!-- Horizontal Layout: Contains the video thumbnail -->
+      <img class="thumbnail" src="thumbnails/thumbnail-7.webp" alt="Video Thumbnail">
+      <div class="video-time">14:20</div>
+    </div></a>
+    <!-- Video Details -->
+    <div class="video-info-grid"> <!-- Horizontal Layout: Displays the channel profile and video info side by side -->
+      <div class="channel-profile"> <!-- Vertical Layout: Contains the channel profile picture -->
+        <img class="profile-picture" src="channelprofile/channels8_profile.jpg" alt="Channel Profile">
+      </div>
+      <div class="video-info"> <!-- Vertical Layout: Contains the video title, author, and states -->
+        <p class="video-title">CCTV sambavam loading Promo | Vj Siddhu Vlogs</p>
+        <p class="video-author">Vj Siddhu Vlogs</p>
+        <p class="video-states">300K views· 3 hours ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="video-preview"> <!-- Vertical Layout: Contains the entire video preview -->
+    <!-- Thumbnail Image -->
+    <a href="https://youtu.be/7dERWPt5rns?si=rT9OnpsMwIILxMaR" target="blank" class="thumnail-link">
+    <div class="thumbnail-image"> <!-- Horizontal Layout: Contains the video thumbnail -->
+      <img class="thumbnail" src="thumbnails/thumbnail-13.webp" alt="Video Thumbnail">
+      <div class="video-time">30:57</div>
+    </div></a>
+    <!-- Video Details -->
+    <div class="video-info-grid"> <!-- Horizontal Layout: Displays the channel profile and video info side by side -->
+      <div class="channel-profile"> <!-- Vertical Layout: Contains the channel profile picture -->
+        <img class="profile-picture" src="channelprofile/channels13_profile.jpg" alt="Channel Profile">
+      </div>
+      <div class="video-info"> <!-- Vertical Layout: Contains the video title, author, and states -->
+        <p class="video-title">Coimbatore Mapla Exposed | Biriyani Man</p>
+        <p class="video-author"> Biriyani Man         </p>
+        <p class="video-states">444K views · 2 weeks ago</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Video Preview -->
+  <div class="video-preview"> <!-- Vertical Layout: Contains the entire video preview -->
+    <!-- Thumbnail Image -->
+    <a href="https://youtu.be/hJ3qUQpFxns?si=4lCI_vVQebAaReyL" target="blank" class="thumnail-link">
+    <div class="thumbnail-image"> <!-- Horizontal Layout: Contains the video thumbnail -->
+      <img class="thumbnail" src="thumbnails/thumbnail-9.webp" alt="Video Thumbnail">
+      <div class="video-time">12:21</div>
+    </div></a>
+    <!-- Video Details -->
+    <div class="video-info-grid"> <!-- Horizontal Layout: Displays the channel profile and video info side by side -->
+      <div class="channel-profile"> <!-- Vertical Layout: Contains the channel profile picture -->
+        <img class="profile-picture" src="channelprofile/channel10_profile.jpg" alt="Channel Profile">
+      </div>
+      <div class="video-info"> <!-- Vertical Layout: Contains the video title, author, and states -->
+        <p class="video-title">Monalisa Viral Girl: What Happened to her? 😯| Madan Gowri | Tamil | MG...</p>
+        <p class="video-author"> Madan Gowri</p>
+        <p class="video-states">386K views · 9 hours ago</p>
+      </div>
+    </div>
+  </div>
+  <div class="video-preview"> <!-- Vertical Layout: Contains the entire video preview -->
+    <!-- Thumbnail Image -->
+    <a href="https://youtu.be/OIRWdkPMrh0?si=lVnfkdCsmdmyRuJI" target="blank" class="thumnail-link">
+    <div class="thumbnail-image"> <!-- Horizontal Layout: Contains the video thumbnail -->
+      <img class="thumbnail" src="thumbnails/thumbnail-20.webp" alt="Video Thumbnail">
+      <div class="video-time">3:40
+      </div>
+    </div></a>
+    <!-- Video Details -->
+    <div class="video-info-grid"> <!-- Horizontal Layout: Displays the channel profile and video info side by side -->
+      <div class="channel-profile"> <!-- Vertical Layout: Contains the channel profile picture -->
+        <img class="profile-picture" src="channelprofile/channels19_profile.jpg" alt="Channel Profile">
+      </div>
+      <div class="video-info"> <!-- Vertical Layout: Contains the video title, author, and states -->
+        <p class="video-title">Uyirey - Video Song | Amaran | Sivakarthikeyan, Sai Pallavi | GV ...</p>
+        <p class="video-author">Saregama Tamil</p>
+        <p class="video-states">18M views · 1 month ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="video-preview"> <!-- Vertical Layout: Contains the entire video preview -->
+    <!-- Thumbnail Image -->
+    <a href="https://www.youtube.com/watch?v=nFkBI1ry86U&pp=ygUDYTJk
+    " target="blank" class="thumnail-link">
+    <div class="thumbnail-image"> <!-- Horizontal Layout: Contains the video thumbnail -->
+      <img class="thumbnail" src="thumbnails/thumbnail-15.webp" alt="Video Thumbnail">
+      <div class="video-time">
+        10:42
+        </div>
+    </div></a>
+    <!-- Video Details -->
+    <div class="video-info-grid"> <!-- Horizontal Layout: Displays the channel profile and video info side by side -->
+      <div class="channel-profile"> <!-- Vertical Layout: Contains the channel profile picture -->
+        <img class="profile-picture" src="channelprofile/channels15_profile.jpg" alt="Channel Profile">
+      </div>
+      <div class="video-info"> <!-- Vertical Layout: Contains the video title, author, and states -->
+        <p class="video-title">காடுகளின் கதை முடிந்தது 🌳 🔥 | Amazon ❌ Blinkit ✅</p>
+        <p class="video-author">A2D Channe</p>
+        <p class="video-states">413K views · 2 days ago</p>
+      </div>
+    </div>
+  </div>
+  <div class="video-preview"> <!-- Vertical Layout: Contains the entire video preview -->
+    <!-- Thumbnail Image -->
+    <a href="https://www.youtube.com/watch?v=Zax-02UPpYE&list=PLtHUQZTim6SBAXb1e3ey7Onf0aqZRDM39" target="blank" class="thumnail-link">
+    <div class="thumbnail-image"> <!-- Horizontal Layout: Contains the video thumbnail -->
+      <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="Video Thumbnail">
+      <div class="video-time">14:20</div>
+    </div></a>
+    <!-- Video Details -->
+    <div class="video-info-grid"> <!-- Horizontal Layout: Displays the channel profile and video info side by side -->
+      <div class="channel-profile"> <!-- Vertical Layout: Contains the channel profile picture -->
+        <img class="profile-picture" src="channelprofile/channel4_profile.jpg" alt="Channel Profile">
+      </div>
+      <div class="video-info"> <!-- Vertical Layout: Contains the video title, author, and states -->
+        <p class="video-title">Quit Smoking, Drinking & P🔞rn to Become a Better Person |...</p>
+        <p class="video-author">Cineulagam</p>
+        <p class="video-states">559K views · 1 month ago</p>
+      </div>
+    </div>
+  </div>
+  <div class="video-preview"> <!-- Vertical Layout: Contains the entire video preview -->
+    <!-- Thumbnail Image -->
+    <a href="https://www.youtube.com/watch?v=zRnrq24crDI&pp=ygUTZW5kIG9mIG1pZGRsZSBjbGFzcw%3D%3D" target="blank" class="thumnail-link">
+    <div class="thumbnail-image"> <!-- Horizontal Layout: Contains the video thumbnail -->
+      <img class="thumbnail" src="thumbnails/thumbnail-17.webp" alt="Video Thumbnail">
+      <div class="video-time">25:10</div>
+    </div></a>
+    <!-- Video Details -->
+    <div class="video-info-grid"> <!-- Horizontal Layout: Displays the channel profile and video info side by side -->
+      <div class="channel-profile"> <!-- Vertical Layout: Contains the channel profile picture -->
+        <img class="profile-picture" src="channelprofile/channels17_profile.jpg" alt="Channel Profile">
+      </div>
+      <div class="video-info"> <!-- Vertical Layout: Contains the video title, author, and states -->
+        <p class="video-title">Why Middle Class in India is DYING? | Tax Burden | Dhruv Rathee</p>
+        <p class="video-author">Dhruv Rathee</p>
+        <p class="video-states">337K views · 1 hour ago</p>
+      </div>
+    </div>
+  </div>
+  <div class="video-preview"> <!-- Vertical Layout: Contains the entire video preview -->
+    <!-- Thumbnail Image -->
+    <a href="https://youtu.be/jkzOQ_aT1i0?si=ICgEYQg21aOwTdKR" target="blank" class="thumnail-link">
+    <div class="thumbnail-image"> <!-- Horizontal Layout: Contains the video thumbnail -->
+      <img class="thumbnail" src="thumbnails/thumbnail-14.webp" alt="Video Thumbnail">
+      <div class="video-time">3:50</div>
+    </div></a>
+    <!-- Video Details -->
+    <div class="video-info-grid"> <!-- Horizontal Layout: Displays the channel profile and video info side by side -->
+      <div class="channel-profile"> <!-- Vertical Layout: Contains the channel profile picture -->
+        <img class="profile-picture" src="channelprofile/channels14_profile.jpg" alt="Channel Profile">
+      </div>
+      <div class="video-info"> <!-- Vertical Layout: Contains the video title, author, and states -->
+        <p class="video-title">Jai Bhim - Police tortures Rajakannu | Surya | Lijomol Jose | TJ Gnanavel | ...</p>
+        <p class="video-author">2D Entertainment</p>
+        <p class="video-states">287K views · 1 year ago</p>
+      </div>
+    </div>
+  </div>
+  <div class="video-preview"> <!-- Vertical Layout: Contains the entire video preview -->
+    <!-- Thumbnail Image -->
+    <a href="https://youtu.be/86ng9tdJmeU?si=_tNzo6M7jHrFWJNE" target="blank" class="thumnail-link">
+    <div class="thumbnail-image"> <!-- Horizontal Layout: Contains the video thumbnail -->
+      <img class="thumbnail" src="thumbnails/thumbnail-19.webp" alt="Video Thumbnail">
+      <div class="video-time"> 6:50</div>
+    </div></a>
+    <!-- Video Details -->
+    <div class="video-info-grid"> <!-- Horizontal Layout: Displays the channel profile and video info side by side -->
+      <div class="channel-profile"> <!-- Vertical Layout: Contains the channel profile picture -->
+        <img class="profile-picture" src="channelprofile/channels18_profile.jpg" alt="Channel Profile">
+      </div>
+      <div class="video-info"> <!-- Vertical Layout: Contains the video title, author, and states -->
+        <p class="video-title">🔥Top 5+ Best 5G Smartphones 🤯 Under ₹15,000 ⚡️ Best Camera ...</p>
+        <p class="video-author">Tamil Tech - MrTT</p>
+        <p class="video-states">184K views ·4 weeks ago</p>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="video-preview"> <!-- Vertical Layout: Contains the entire video preview -->
+    <!-- Thumbnail Image -->
+    <a href="https://youtu.be/KmxOeAaBCpY?si=i9VtFTzeep1Eam7y" target="blank" class="thumnail-link">
+    <div class="thumbnail-image"> <!-- Horizontal Layout: Contains the video thumbnail -->
+      <img class="thumbnail" src="thumbnails/thumbnail-24.webp" alt="Video Thumbnail">
+      <div class="video-time">3:22</div>
+    </div></a>
+    <!-- Video Details -->
+    <div class="video-info-grid"> <!-- Horizontal Layout: Displays the channel profile and video info side by side -->
+      <div class="channel-profile"> <!-- Vertical Layout: Contains the channel profile picture -->
+        <img class="profile-picture" src="channelprofile/channels22_profile.jpg" alt="Channel Profile">
+      </div>
+      <div class="video-info"> <!-- Vertical Layout: Contains the video title, author, and states -->
+        <p class="video-title">Manithan - Poi Vazhva Video | Udhayanidhi | Santhosh ....</p>
+        <p class="video-author">SonyMusicSouthVEVO</p>
+        <p class="video-states">17M views· 8 year ago</p>
+      </div> 
+    </div>
+  </div>
+  <div class="video-preview"> <!-- Vertical Layout: Contains the entire video preview -->
+    <!-- Thumbnail Image -->
+    <a href=" https://youtu.be/R0vMShvlRlc?si=L_RANtHeubnS-WOr" target="blank" class="thumnail-link">
+    <div class="thumbnail-image"> <!-- Horizontal Layout: Contains the video thumbnail -->
+      <img class="thumbnail" src="thumbnails/thumbnail-10.webp" alt="Video Thumbnail">
+      <div class="video-time">10:27
+      </div>
+    </div></a>
+    <!-- Video Details -->
+    <div class="video-info-grid"> <!-- Horizontal Layout: Displays the channel profile and video info side by side -->
+      <div class="channel-profile"> <!-- Vertical Layout: Contains the channel profile picture -->
+        <img class="profile-picture" src="channelprofile/channels10_profile.jpg" alt="Channel Profile">
+      </div>
+      <div class="video-info"> <!-- Vertical Layout: Contains the video title, author, and states -->
+        <p class="video-title">CHICKEN 65 IDLI | Fried Chicken Idli Recipe Cooking In Village | Idli ...</p>
+        <p class="video-author">Village Cooking Channel</p>
+        <p class="video-states">11M views · 3 weeks ago</p>
+      </div>
+    </div>
+  </div>
+  <div class="video-preview"> <!-- Vertical Layout: Contains the entire video preview -->
+    <!-- Thumbnail Image -->
+    <a href="https://youtu.be/uy9e-Sy0vTA" target="blank" class="thumnail-link">
+    <div class="thumbnail-image"> <!-- Horizontal Layout: Contains the video thumbnail -->
+      <img class="thumbnail" src="thumbnails/thumbnail-26.webp" alt="Video Thumbnail">
+      <div class="video-time">2:33</div>
+    </div></a>
+    <!-- Video Details -->
+    <div class="video-info-grid"> <!-- Horizontal Layout: Displays the channel profile and video info side by side -->
+      <div class="channel-profile"> <!-- Vertical Layout: Contains the channel profile picture -->
+        <img class="profile-picture" src="channelprofile/channels25_profile.jpg" alt="Channel Profile">
+      </div>
+      <div class="video-info"> <!-- Vertical Layout: Contains the video title, author, and states -->
+        <p class="video-title">Velai Illa Pattadhaari #D25 #VIP - Title Song | Full Video Song
+        </p>
+        <p class="video-author">Wunderbar Films</p>
+        <p class="video-states">5.5M views · 10years ago</p>
+      </div>
+    </div>
+  </div>
+  <div class="video-preview"> <!-- Vertical Layout: Contains the entire video preview -->
+    <!-- Thumbnail Image -->
+    <a href="  https://youtu.be/Tuw8hxrFBH8  " target="blank" class="thumnail-link">
+    <div class="thumbnail-image"> <!-- Horizontal Layout: Contains the video thumbnail -->
+      <img class="thumbnail" src="thumbnails/thumbnail-27.webp" alt="Video Thumbnail">
+      <div class="video-time">14:20</div>
+    </div></a>
+    <!-- Video Details -->
+    <div class="video-info-grid"> <!-- Horizontal Layout: Displays the channel profile and video info side by side -->
+      <div class="channel-profile"> <!-- Vertical Layout: Contains the channel profile picture -->
+        <img class="profile-picture" src="channelprofile/channels26_profile.jpg" alt="Channel Profile">
+      </div>
+      <div class="video-info"> <!-- Vertical Layout: Contains the video title, author, and states -->
+        <p class="video-title">One of the Greatest Speeches Ever | Steve Jobs</p>
+        <p class="video-author">Motivation Ark</p>
+        <p class="video-states">37M views · 4 years ago</p>
+      </div>
+    </div>
+  </section>
+</main>
+ 
+
+
+
+
+
+
+
+
+ 
+</body>
+</html>
